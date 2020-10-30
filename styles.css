@@ -1,0 +1,92 @@
+body {
+    background-color: white;
+}
+
+h1  {
+    color: darkblue;
+    margin: 10px;
+}
+
+p {
+    margin: 20px;
+}
+
+li {
+    display: inline;
+    margin: 10px;
+}
+
+header {
+    margin: 15px 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0;
+    height: auto;
+}
+
+header > * {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    font-weight: 500;
+    height: 100%;
+}
+
+footer {    
+    background-color: lavender;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #025157;
+    margin: 10px;
+    font-size: 0;
+}
+
+footer > * {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;    
+}
+
+.logo {
+    width: 10%;
+}
+
+.navbar {   
+    width: 60%;
+}
+
+.navbar > * {
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+}
+
+.navbar a {
+    color: #025157;
+}
+
+.usuario {
+    font-size: 14px;
+    width: 30%;
+    text-align: right;
+}
+
+.usuario > * {
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+
+.usuario a {
+    color: #67b54b;
+}
+
+.usuario button {
+    color: white;
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.footer-elements {
+    width: 80%;
+    text-align: right;
+}
